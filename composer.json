@@ -1,0 +1,29 @@
+{
+    "name": "hanafalah/laravel-xendit",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Hanafalah\\LaravelXendit\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "hamzah nur al falah",
+            "email": "hamzahnafalah@gmail.com"
+        }
+    ],
+    "require": {
+        "hanafalah/laravel-support": "dev-main",
+        "xendit/xendit-php": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hanafalah\\LaravelXendit\\LaravelXenditServiceProvider"
+            ]
+        }
+    }
+}
