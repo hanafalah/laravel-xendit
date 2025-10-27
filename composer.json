@@ -18,12 +18,5 @@
     "require": {
         "hanafalah/laravel-support": "dev-main",
         "xendit/xendit-php": "^7.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Hanafalah\\LaravelXendit\\LaravelXenditServiceProvider"
-            ]
-        }
     }
 }
